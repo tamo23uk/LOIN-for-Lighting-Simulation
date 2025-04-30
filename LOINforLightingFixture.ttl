@@ -15,7 +15,7 @@
 
 <http://ju.se/LOINforLightingSimulation> rdf:type owl:Ontology ;
                                             owl:versionIRI <http://ju.se/LOINforLightingSimulation/v1.1> ;
-                                            rdfs:comment "This is the LOIN requirement for lighting simulation developed by resusing existing ontologies such as Lighting Fixture Product Ontology (LPPO), LOIN, Isoprops, Data Template Ontology (TempO) to address the use case in a master's thesis by Mohamad Monir Taktak & Nischal Bhattarai.for Jonkoping University.".
+                                            rdfs:comment "This is the LOIN requirement for lighting simulation developed by resusing existing ontologies such as Lighting Fixture Product Ontology (LPPO), LOIN, Isoprops, Data Template Ontology (TempO) to address the use case in a master's thesis by Mohamad Monir Taktak & Nischal Bhattarai.The thesis project Lifting Heterogeneous Data into RDF/OWL Knowledge Graph: A Semantic Approach conducted as part of the Master's program in Sustainable Building Information Management at Jönköping University.".
 
 # LOIN Context
 loinlf:LOIN_Lighting_InfoRequirement a loin:LevelOfInformationNeed ;
