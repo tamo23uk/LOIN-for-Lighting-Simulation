@@ -58,10 +58,13 @@ The example use case involves sharing lighting data from a manufacturer with an 
 
 ## 🧑‍💼 Authors
 
-- **Mohamad Monir Taktak** – tamo23uk@student.ju.se  
-- **Nischal Bhattarai** – bhni23vb@student.ju.se
+- **Mohamad Monir Taktak** - tamo23uk@student.ju.se  
+                           - monertaktak@gmail.com
+- **Nischal Bhattarai** - bhni23vb@student.ju.se
 
-Supervised by **Rahel Kebede**  
+Supervised by 
+- **Peter Johansson** - peter.johansson@ju.se
+- **Rahel Kebede**  - rahel.kebede@ju.se
 School of Engineering, Jönköping University
 
 ---
