@@ -16,22 +16,22 @@ The Architecture, Engineering, and Construction (AEC) industry suffers from poor
 1. Extract lighting data from RDF-based dictionaries.
 2. Package and deliver it using LOIN and Data Templates.
 3. Support semantic validation with IDS against received data.
-4. Use SPARQL for advanced querying and reasoning.
+4. Use SPARQL / SHACL for advanced querying and reasoning.
 
 ## 🔗 Key Standards and Ontologies
 
-- **ISO 7817 (LOIN)** – Defines level of information need.
-- **ISO 23386 & 23387** – Used for data templates and property definition.
-- **bSDD** – buildingSMART Data Dictionary for standardized property use.
-- **BOT / QUDT / SAREF** – Domain ontologies for building elements and quantities.
+- **Level of Information Need (LOIN) Ontology** – Defines level of information need. <https://w3id.org/loin>
+- **Data Template Ontology (TempO)** – Used for data templates and property definition. <https://w3id.org/tempo>
+- **ISO 23386 Property Ontology (ISOProps)** –  Describing, creating, and maintenance of properties in interconnected data dictionaries. <https://w3id.org/isoprops>
+- **Lighting Product Property Ontology (LPPO)** – Data dictionary for the properties describing electric lighting products and luminaires and sensing devices used in the construction. <http://www.w3id.org/ppon/lppo>
 
 ## 🚀 Technologies & Tools
 
 - **RDF / OWL** – Knowledge representation.
 - **Protégé** – Ontology design and alignment.
-- **Python (rdflib)** – RDF transformation and automation.
-- **SPARQL / GeoSPARQL** – Semantic querying.
-- **GraphDB / Stardog / Fuseki** – Triplestore and query execution.
+- **Python (rdflib / Stardog RDF Grammars)** – RDF transformation and automation. / Visual Studio Code syntax highlighting for all your favorite RDF languages, and a few Stardog-specific ones, too!
+- **SPARQL / SHACL** – Semantic querying.
+- **GraphDB / Stardog** – Triplestore and query execution.
 - **LOIN XML and IDS** – Specification and validation exchange format.
 
 ## 🛠 Use Case
@@ -40,7 +40,7 @@ The example use case involves sharing lighting data from a manufacturer with an 
 
 1. Extract and transform product data into RDF using a predefined ontology.
 2. Package the data using the LOIN approach and share it with an architect.
-3. Architect selects or simulates lighting parameters and returns data.
+3. Architect selects orand simulates lighting parameters and returns data.
 4. The data is validated against predefined IDS rules using SHACL or SPARQL.
 
 ![Workflow](https://github.com/tamo23uk/LOIN-for-Lighting-Simulation/blob/main/Use-case%20Workflow%20diagram.png) 
