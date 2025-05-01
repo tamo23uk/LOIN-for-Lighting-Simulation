@@ -40,7 +40,7 @@ The example use case involves sharing lighting data from a manufacturer with an 
 
 1. Extract and transform product data into RDF using a predefined ontology.
 2. Package the data using the LOIN approach and share it with an architect.
-3. Architect selects orand simulates lighting parameters and returns data.
+3. Architect selects or/and simulates lighting parameters and returns data.
 4. The data is validated against predefined IDS rules using SHACL or SPARQL.
 
 ![Workflow](https://github.com/tamo23uk/LOIN-for-Lighting-Simulation/blob/main/Use-case%20Workflow%20diagram.png) 
