@@ -4,7 +4,7 @@ This repository supports the thesis project **"Lifting Heterogeneous Data into R
 
 ## 🧠 Project Summary
 
-The Architecture, Engineering, and Construction (AEC) industry suffers from poor data interoperability, especially when integrating product data like lighting with Building Information Modeling (BIM). This project uses Semantic Web technologies and Linked Data principles to tackle the interoperability issue by:
+The Architecture, Engineering, and Construction (AEC) industry suffers from poor data interoperability during cross-domain integration of diverse data & sources across multiple project stakeholders in a project. Semantic Web technologies and Linked Data Principles are seen as a solution to address these issues by transforming the data into a machine-interpretable format. This project looks into the transformation of heterogeneous data into RDF/OWL data using a semantic approach. It utilizes Semantic Web technologies and Linked Data principles to tackle the interoperability issue by:
 
 - Extracting lighting product data.
 - Structuring and sharing it using the **LOIN (Level of Information Need)** methodology.
