@@ -60,7 +60,7 @@ The example use case involves sharing lighting data from a manufacturer with an 
 
 - **Mohamad Monir Taktak** - tamo23uk@student.ju.se  
                            - monertaktak@gmail.com
-- **Nischal Bhattarai** - bhni23vb@student.ju.se
+- **Nischal Bhattarai** - bhni23vb@student.ju.se / nisbhswe@gmail.com
 
 Supervised by 
 - **Peter Johansson** - peter.johansson@ju.se
