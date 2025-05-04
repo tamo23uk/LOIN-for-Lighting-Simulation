@@ -19,22 +19,22 @@
 
 # LOIN Context
 loinlf:LOIN_Lighting_InfoRequirement a loin:LevelOfInformationNeed ;
-    loin:hasPurpose loinlf:DesignPhaseLightingRequirements ;
+    loin:hasPurpose loinlf:LightingSimulation ;
     loin:SendingActor loinlf:BIMengineer ;
     loin:ReceivingActor loinlf:Architect ;
-    loin:InformationDeliveryMilestone loinlf:LightingDesignSubmission ;
-    loin:hasConstructionObject loinlf:LightingFixture01 ;
+    loin:InformationDeliveryMilestone loinlf:DesignPhase ;
+    loin:hasConstructionObject loinlf:LightingFixture ;
     loin:hasAlphanumericalInformation loinlf:LightingFixture_InfoContent .
 
 loinlf:LightingFixture rdfs:subClassOf tempo:ConstructionObject .
-loinlf:DesignPhaseLightingRequirements a loin:Purpose .
+loinlf:LightingSimulation a loin:Purpose .
 loinlf:BIMengineer a loin:Actor .
 loinlf:Architect a loin:Actor .
-loinlf:LightingDesignSubmission  a loin:InformationDeliveryMilestone .
+loinlf:DesignPhase  a loin:InformationDeliveryMilestone .
 loinlf:LightingFixture_InfoContent a loin:AlphanumericalInformation .
 
 # Construction Object
-loinlf:LightingFixture01 a loinlf:LightingFixture ;
+loinlf:LightingFixtureNotor a loinlf:LightingFixture ;
     tempo:hasReferenceDocument <Fagerhult_Notor_RDF_2025-04-09_property-naming-convention.ttl> ;
     tempo:hasGroupOfProperties loinlf:ProductReq_PropertySet .
 
@@ -106,7 +106,7 @@ lppo:illuminanceRange a owl:DatatypeProperty ;
 lppo:GlareIndexUGR a owl:DatatypeProperty ;
     rdfs:domain tempo:ConstructionObject ;
     rdfs:range xsd:float ; 
-    qudt:unit unit:LUX ; 
+    qudt:unit unit:ONE ; 
     bppo:hasGUID <http://w3id.org/lppo/lppo.owl#1rOIzi$gb9FQAy3lzwGIQH> .
 
 # Simulation Requirements Property Set
@@ -114,3 +114,12 @@ loinlf:SimulatedIlluminance a owl:DatatypeProperty ;
     rdfs:domain tempo:ConstructionObject ;
     rdfs:range xsd:float ; 
     qudt:unit unit:LUX .
+
+
+lppo:powerFactor rdf:type owl:DatatypeProperty ;
+    rdfs:domain lppo:LightingFixtureElectricalProperties ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Power Factor" ;
+    skos:definition """Ratio of the amount of the active power to the
+apparent power at 100 % load. See also IEC 80000-6.""" ;
+                 bppo:hasGUID "3LBrQkLDDFheBOxrGk8Zr_" .
