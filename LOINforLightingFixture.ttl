@@ -10,6 +10,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ifc: <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#> .
 
 @base <http://www.semanticweb.org/acer/ontologies/2025/3/LOINforLightingSimulation/> .
 
@@ -23,20 +24,22 @@ loinlf:LOIN_Lighting_InfoRequirement a loin:LevelOfInformationNeed ;
     loin:SendingActor loinlf:BIMengineer ;
     loin:ReceivingActor loinlf:Architect ;
     loin:InformationDeliveryMilestone loinlf:DesignPhase ;
-    loin:hasConstructionObject loinlf:LightingFixture ;
-    loin:hasAlphanumericalInformation loinlf:LightingFixture_InfoContent .
+    loin:hasConstructionObject ifc:IfcLightFixture ;
+    loin:hasAlphanumericalInformation loinlf:LightFixture_InfoContent .
 
-loinlf:LightingFixture rdfs:subClassOf tempo:ConstructionObject .
+ifc:IfcLightFixture rdfs:subClassOf tempo:ConstructionObject ;
+    tempo:hasReferenceDocument <Fagerhult_Notor_RDF_2025-04-09_property-naming-convention.ttl> ;
+    tempo:hasGroupOfProperties loinlf:ProductReq_PropertySet,
+                               loinlf:FunctionalReq_PropertySet,
+                               loinlf:SimulationReq_PropertySet .
+
+
 loinlf:LightingSimulation a loin:Purpose .
 loinlf:BIMengineer a loin:Actor .
 loinlf:Architect a loin:Actor .
 loinlf:DesignPhase  a loin:InformationDeliveryMilestone .
-loinlf:LightingFixture_InfoContent a loin:AlphanumericalInformation .
+loinlf:LightFixture_InfoContent a loin:AlphanumericalInformation .
 
-# Construction Object
-loinlf:LightingFixtureNotor a loinlf:LightingFixture ;
-    tempo:hasReferenceDocument <Fagerhult_Notor_RDF_2025-04-09_property-naming-convention.ttl> ;
-    tempo:hasGroupOfProperties loinlf:ProductReq_PropertySet .
 
 ### Reference Document
 <Fagerhult_Notor_RDF_2025-04-09_property-naming-convention.ttl> a tempo:ReferenceDocument ;
@@ -46,7 +49,7 @@ loinlf:LightingFixtureNotor a loinlf:LightingFixture ;
 loinlf:LightingPropertyDataDictionary a isoprops:ExternalDictionaryReference ; isoprops:hasExternalDictionaryPropertyLPPO <http://www.w3id.org/ppon/lppo> .
 
 # Alphanumerical Information Content (Data Template)
-loinlf:LightingFixture_InfoContent a tempo:DataTemplate ;
+loinlf:LightFixture_InfoContent a tempo:DataTemplate ;
     tempo:hasGroupOfProperties loinlf:FunctionalReq_PropertySet , loinlf:SimulationReq_PropertySet , loinlf:ProductReq_PropertySet .
 
 # Functional Requirements Property Set
@@ -115,11 +118,3 @@ loinlf:SimulatedIlluminance a owl:DatatypeProperty ;
     rdfs:range xsd:float ; 
     qudt:unit unit:LUX .
 
-
-lppo:powerFactor rdf:type owl:DatatypeProperty ;
-    rdfs:domain lppo:LightingFixtureElectricalProperties ;
-    rdfs:range xsd:decimal ;
-    rdfs:label "Power Factor" ;
-    skos:definition """Ratio of the amount of the active power to the
-apparent power at 100 % load. See also IEC 80000-6.""" ;
-                 bppo:hasGUID "3LBrQkLDDFheBOxrGk8Zr_" .

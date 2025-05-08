@@ -50,6 +50,18 @@ The example use case involves sharing lighting data from a manufacturer with an 
 - [Halfway Report (PDF)](./docs/TEBV24_Half-Way-Report.pdf)
 - [Ontology Network Reference: Filardo et al. (2024)](./docs/Filardo-A standard-based ontology network-2024.pdf)
 
+## 🗂️ Project Directory Structure
+
+- 📁 ontologies/ contains all semantic definitions (RDF/OWL). Start here to understand data structures.
+
+- 📁 data-exchange/ contains files used for data exchange between stakeholders (e.g., IDS, LOIN Excel).
+
+- 📁 models/ are IFC files used to simulate the building.
+
+- 📁 results/ are generated after validating IFC against IDS using tools like Cobuilder and SHACL.
+
+- 📁 scripts/ contains automation tools, such as transforming .ttl to .ids.
+
 ## 📚 References
 
 - Kebede et al., 2022. *Integration of manufacturers’ product data using semantic web*.
@@ -58,8 +70,7 @@ The example use case involves sharing lighting data from a manufacturer with an 
 
 ## 🧑‍💼 Authors
 
-- **Mohamad Monir Taktak** - tamo23uk@student.ju.se  
-                           - monertaktak@gmail.com
+- **Mohamad Monir Taktak** - tamo23uk@student.ju.se  / monertaktak@gmail.com
 - **Nischal Bhattarai** - bhni23vb@student.ju.se / nisbhswe@gmail.com
 
 Supervised by 
@@ -69,5 +80,5 @@ School of Engineering, Jönköping University
 
 ---
 
-> 📢 _This repository is a research prototype and not production-ready. Contributions and feedback are welcome._
+> 📢 This repository is a research prototype and not production-ready. Contributions and feedback are welcome.
 
