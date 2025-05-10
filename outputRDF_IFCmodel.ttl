@@ -5,6 +5,7 @@
 @prefix loin: <https://w3id.org/loin#> .
 @prefix lppo: <http://www.w3id.org/ppon/lppo#> .
 
+
 <http://example.org/ifc#0$UaUR3r$4rINk2liY9q$l> a ifc:IfcRelFillsElement ;
     ifc:globalId_IfcRoot "0$UaUR3r$4rINk2liY9q$l" .
 
@@ -702,10 +703,10 @@ ex:0flazEVOYyNPDoLFzR9ddF a ifc:IfcRelDefinesByProperties ;
 
 ex:0fsmD4WabAEPvWKMqofdU7 a ifc:IfcRelDefinesByProperties ;
     ifc:globalId_IfcRoot "0fsmD4WabAEPvWKMqofdU7" ;
-    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#08vJt1Dh56q981xYdCy$$O>,
-        <http://example.org/ifc#08vJt1Dh56q981xYdCy$us>,
-        <http://example.org/ifc#08vJt1Dh56q981xYdCy$xk>,
-        <http://example.org/ifc#08vJt1Dh56q981xYdCy$zq> ;
+    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#LightFixture02>,
+        <http://example.org/ifc#LightFixture01>,
+        <http://example.org/ifc#LightFixture03>,
+        <http://example.org/ifc#LightFixture04> ;
     ifc:relatingPropertyDefinition_IfcRelDefinesByProperties loinlf:ProductReq_PropertySet .
 
 ex:0gJNlP4OfNZi2CBvp1NTIU a ifc:IfcRelDefinesByProperties ;
@@ -895,7 +896,7 @@ ex:0pgB6AqFXu2FiEY2IgZseO a ifc:IfcRelDefinesByProperties ;
 
 <http://example.org/ifc#0pxGuODEmhNmD$0fTMPdPd> a ifc:IfcRelDefinesByProperties ;
     ifc:globalId_IfcRoot "0pxGuODEmhNmD$0fTMPdPd" ;
-    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#08vJt1Dh56q981xYdCy$$O> ;
+    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#LightFixture02> ;
     ifc:relatingPropertyDefinition_IfcRelDefinesByProperties ex:0VWGlaE0W5LkOq53HHQkPK .
 
 ex:0q6vB1PX60SY3MbQ2vk3kY a ifc:IfcRelDefinesByProperties ;
@@ -913,10 +914,10 @@ ex:0qlld6D6pYmRCbw__TBORe a ifc:IfcRelFillsElement ;
 
 <http://example.org/ifc#0qtwMQi3jC5gjjRgf$SfLQ> a ifc:IfcRelDefinesByProperties ;
     ifc:globalId_IfcRoot "0qtwMQi3jC5gjjRgf$SfLQ" ;
-    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#08vJt1Dh56q981xYdCy$$O>,
-        <http://example.org/ifc#08vJt1Dh56q981xYdCy$us>,
-        <http://example.org/ifc#08vJt1Dh56q981xYdCy$xk>,
-        <http://example.org/ifc#08vJt1Dh56q981xYdCy$zq> ;
+    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#LightFixture02>,
+        <http://example.org/ifc#LightFixture01>,
+        <http://example.org/ifc#LightFixture03>,
+        <http://example.org/ifc#LightFixture04> ;
     ifc:relatingPropertyDefinition_IfcRelDefinesByProperties loinlf:SimulationReq_PropertySet .
 
 ex:0rMJ6XCbQTyPup9FAEZ23C a ifc:IfcRelDefinesByProperties ;
@@ -1043,7 +1044,7 @@ ex:0xWoNgErNGGwZi56sV28Vj a ifc:IfcRelDefinesByProperties ;
 
 ex:0xfOoKxGBPUYx71yb0mYkS a ifc:IfcRelDefinesByProperties ;
     ifc:globalId_IfcRoot "0xfOoKxGBPUYx71yb0mYkS" ;
-    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#08vJt1Dh56q981xYdCy$zq> ;
+    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#LightFixture04> ;
     ifc:relatingPropertyDefinition_IfcRelDefinesByProperties ex:0wo2pvCzcxOAaExrrP5J0e .
 
 ex:0xk3slAgCGYVDhUW9JEKKa a ifc:IfcRelDefinesByProperties ;
@@ -1455,7 +1456,7 @@ ex:1KOZveH4BJBCi_obdwdjEO a ifc:IfcRelDefinesByProperties ;
 
 <http://example.org/ifc#1KQHaZfhf$HcyzCduVrC0y> a ifc:IfcRelDefinesByProperties ;
     ifc:globalId_IfcRoot "1KQHaZfhf$HcyzCduVrC0y" ;
-    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#08vJt1Dh56q981xYdCy$us> ;
+    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#LightFixture01> ;
     ifc:relatingPropertyDefinition_IfcRelDefinesByProperties ex:2JNVnlUr2E_8ERRA6IeirQ .
 
 ex:1KuKoJVudYiAg65cy8X0FD a ifc:IfcRelDefinesByProperties ;
@@ -2610,10 +2611,10 @@ ex:23XkZzt_Ez4XQK5ey9PA23 a ifc:IfcRelDefinesByProperties ;
 
 ex:23cu8dexr8_8tk4hLYHdZ0 a ifc:IfcRelDefinesByProperties ;
     ifc:globalId_IfcRoot "23cu8dexr8_8tk4hLYHdZ0" ;
-    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#08vJt1Dh56q981xYdCy$$O>,
-        <http://example.org/ifc#08vJt1Dh56q981xYdCy$us>,
-        <http://example.org/ifc#08vJt1Dh56q981xYdCy$xk>,
-        <http://example.org/ifc#08vJt1Dh56q981xYdCy$zq> ;
+    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#LightFixture02>,
+        <http://example.org/ifc#LightFixture01>,
+        <http://example.org/ifc#LightFixture03>,
+        <http://example.org/ifc#LightFixture04> ;
     ifc:relatingPropertyDefinition_IfcRelDefinesByProperties loinlf:FunctionalReq_PropertySet .
 
 ex:23tMXXLGRU5kejnLPyOinQ a ifc:IfcRelDefinesByProperties ;
@@ -2668,7 +2669,7 @@ ex:26dMyLu52E4BSrhiieZqHX a ifc:IfcRelDefinesByProperties ;
 
 ex:27KCzIbFLVsX1Ps5QJXlnc a ifc:IfcRelDefinesByProperties ;
     ifc:globalId_IfcRoot "27KCzIbFLVsX1Ps5QJXlnc" ;
-    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#08vJt1Dh56q981xYdCy$$O> ;
+    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#LightFixture02> ;
     ifc:relatingPropertyDefinition_IfcRelDefinesByProperties <http://example.org/ifc#3Pp5T8to2_Hiu$mphi64Wp> .
 
 ex:27PCKGLxT4mxtV9cw6mgBW a ifc:IfcRelAggregates ;
@@ -3353,7 +3354,7 @@ ex:2iA2cijfGRaB21Blj2n8Su a ifc:IfcRelAssociatesMaterial ;
 
 ex:2ikD5bESoxfOkSbQSi0Wpe a ifc:IfcRelDefinesByProperties ;
     ifc:globalId_IfcRoot "2ikD5bESoxfOkSbQSi0Wpe" ;
-    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#08vJt1Dh56q981xYdCy$xk> ;
+    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#LightFixture03> ;
     ifc:relatingPropertyDefinition_IfcRelDefinesByProperties ex:237ooE7V4FJZi1h0siIYHX .
 
 <http://example.org/ifc#2jDsudQ7Rpcw4$DKoTLdll> a ifc:IfcRelDefinesByProperties ;
@@ -3492,7 +3493,7 @@ ex:2s7ZBgFq5y5o1LwrL2WCSm a ifc:IfcRelDefinesByProperties ;
 
 <http://example.org/ifc#2sQYxm2Pg7L6N$Ce30dGe_> a ifc:IfcRelDefinesByProperties ;
     ifc:globalId_IfcRoot "2sQYxm2Pg7L6N$Ce30dGe_" ;
-    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#08vJt1Dh56q981xYdCy$zq> ;
+    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#LightFixture04> ;
     ifc:relatingPropertyDefinition_IfcRelDefinesByProperties <http://example.org/ifc#0$zww1bSeT$h7G$N1gFU0M> .
 
 ex:2sZp9ckub1Nua4VGit2rnC a ifc:IfcRelAssociatesMaterial ;
@@ -3983,7 +3984,7 @@ ex:3KQoyNU0JmeCZIMnoKxUAC a ifc:IfcRelDefinesByType ;
 
 <http://example.org/ifc#3KZYSWDL3336xSVo305$2b> a ifc:IfcRelDefinesByProperties ;
     ifc:globalId_IfcRoot "3KZYSWDL3336xSVo305$2b" ;
-    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#08vJt1Dh56q981xYdCy$us> ;
+    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#LightFixture01> ;
     ifc:relatingPropertyDefinition_IfcRelDefinesByProperties <http://example.org/ifc#08SUGJK$C6CoOQCU5CuidC> .
 
 <http://example.org/ifc#3KftNk4aYvyC$eAszrpAi5> a ifc:IfcWindowType ;
@@ -4119,7 +4120,7 @@ ex:3QYCnFEGqDClOlMIHbOUPB a ifc:IfcRelDefinesByProperties ;
 
 ex:3Qv5blDMMNhaaiTFlsfL97 a ifc:IfcRelDefinesByProperties ;
     ifc:globalId_IfcRoot "3Qv5blDMMNhaaiTFlsfL97" ;
-    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#08vJt1Dh56q981xYdCy$xk> ;
+    ifc:relatedObjects_IfcRelDefinesByProperties <http://example.org/ifc#LightFixture03> ;
     ifc:relatingPropertyDefinition_IfcRelDefinesByProperties <http://example.org/ifc#1c6Fx$duSEXZQk5pZvplPF> .
 
 ex:3R0jTxfMThvPAfiI7QEnyR a ifc:IfcRelFillsElement ;
@@ -12841,29 +12842,29 @@ ex:3xh_P_Tl93GvVfj6xHnzlV a ifc:IfcWall ;
     ifc:globalId_IfcRoot "3xh_P_Tl93GvVfj6xHnzlV" ;
     ifc:name_IfcRoot "Basic Wall:V1:351444" .
 
-<http://example.org/ifc#08vJt1Dh56q981xYdCy$$O> a ifc:IfcLightFixture ;
-    ifc:globalId_IfcRoot "08vJt1Dh56q981xYdCy$$O" ;
-    ifc:name_IfcRoot "Notor-65-Beta-Opti_Face:Reload with Family Catalog:431835" ;
-    lppo:averageRatedLifeOfLightSource "50000"^^xsd:float ;
-    lppo:colorRenderingIndex "18"^^xsd:float ;
-    lppo:correlatedColorTemperature "4000"^^xsd:float ;
-    lppo:luminousFlux "3226"^^xsd:float ;
-    lppo:mountingType "mountingType" ;
-    lppo:powerConsumption "50"^^xsd:float ;
-    loinlf:AnnualSunlightExposure "6"^^xsd:float ;
-    loinlf:DaylightAutonomy "28"^^xsd:float ;
-    loinlf:SimulatedIlluminance "3114"^^xsd:float ;
-    lppo:illuminanceRange "400"^^xsd:float ;
-    lppo:GlareIndexUGR  "19"^^xsd:float .
-
-<http://example.org/ifc#08vJt1Dh56q981xYdCy$us> a ifc:IfcLightFixture ;
+<http://example.org/ifc#LightFixture01> a ifc:IfcLightFixture ;
     ifc:globalId_IfcRoot "08vJt1Dh56q981xYdCy$us" ;
     ifc:name_IfcRoot "Notor-65-Beta-Opti_Face:Reload with Family Catalog:431925" ;
     lppo:averageRatedLifeOfLightSource "50000"^^xsd:float ;
     lppo:colorRenderingIndex "18"^^xsd:float ;
     lppo:correlatedColorTemperature "4000"^^xsd:float ;
     lppo:luminousFlux "3226"^^xsd:float ;
-    lppo:mountingType "mountingType" ;
+    lppo:mountingType "Wall" ;
+    lppo:powerConsumption "50"^^xsd:float ;
+    loinlf:AnnualSunlightExposure "6"^^xsd:float ;
+    loinlf:DaylightAutonomy "28"^^xsd:float ;
+    loinlf:SimulatedIlluminance "3114"^^xsd:float ;
+    lppo:illuminanceRange "320"^^xsd:float ;
+    lppo:GlareIndexUGR  "19"^^xsd:float .
+
+<http://example.org/ifc#LightFixture02> a ifc:IfcLightFixture ;
+    ifc:globalId_IfcRoot "08vJt1Dh56q981xYdCy$$O" ;
+    ifc:name_IfcRoot "Notor-65-Beta-Opti_Face:Reload with Family Catalog:431835" ;
+    lppo:averageRatedLifeOfLightSource "50000"^^xsd:float ;
+    lppo:colorRenderingIndex "18"^^xsd:float ;
+    lppo:correlatedColorTemperature "4000"^^xsd:float ;
+    lppo:luminousFlux "3226"^^xsd:float ;
+    lppo:mountingType "Ceiling" ;
     lppo:powerConsumption "50"^^xsd:float ;
     loinlf:AnnualSunlightExposure "6"^^xsd:float ;
     loinlf:DaylightAutonomy "28"^^xsd:float ;
@@ -12871,31 +12872,36 @@ ex:3xh_P_Tl93GvVfj6xHnzlV a ifc:IfcWall ;
     lppo:illuminanceRange "400"^^xsd:float ;
     lppo:GlareIndexUGR  "19"^^xsd:float .
 
-<http://example.org/ifc#08vJt1Dh56q981xYdCy$xk> a ifc:IfcLightFixture ;
+<http://example.org/ifc#LightFixture03> a ifc:IfcLightFixture ;
     ifc:globalId_IfcRoot "08vJt1Dh56q981xYdCy$xk" ;
     ifc:name_IfcRoot "Notor-65-Beta-Opti_Face:Reload with Family Catalog:432109" ;
     lppo:averageRatedLifeOfLightSource "50000"^^xsd:float ;
     lppo:colorRenderingIndex "18"^^xsd:float ;
     lppo:correlatedColorTemperature "4000"^^xsd:float ;
     lppo:luminousFlux "3100"^^xsd:float ;
-    lppo:mountingType "mountingType" ;
+    lppo:mountingType "Ceiling" ;
     lppo:powerConsumption "50"^^xsd:float ;
     loinlf:AnnualSunlightExposure "6"^^xsd:float ;
     loinlf:DaylightAutonomy "28"^^xsd:float ;
     loinlf:SimulatedIlluminance "3114"^^xsd:float ;
-    lppo:illuminanceRange "400"^^xsd:float ;
+    lppo:illuminanceRange "300"^^xsd:float ;
     lppo:GlareIndexUGR  "19"^^xsd:float .
 
-<http://example.org/ifc#08vJt1Dh56q981xYdCy$zq> a ifc:IfcLightFixture ;
+<http://example.org/ifc#LightFixture04> a ifc:IfcLightFixture ;
     ifc:globalId_IfcRoot "08vJt1Dh56q981xYdCy$zq" ;
     ifc:name_IfcRoot "Notor-65-Beta-Opti_Face:Reload with Family Catalog:431735" ;
-    lppo:averageRatedLifeOfLightSource "50000"^^xsd:float ;
+    lppo:averageRatedLifeOfLightSource "35000"^^xsd:float ;
     lppo:colorRenderingIndex "18"^^xsd:float ;
     lppo:correlatedColorTemperature "4000"^^xsd:float ;
     lppo:luminousFlux "2500"^^xsd:float ;
-    lppo:mountingType "mountingType" ;
+    lppo:mountingType "Wall" ;
     lppo:powerConsumption "50"^^xsd:float ;
     loinlf:AnnualSunlightExposure "6"^^xsd:float ;
     loinlf:DaylightAutonomy "28"^^xsd:float ;
     loinlf:SimulatedIlluminance "3114"^^xsd:float ;
-    lppo:illuminanceRange "400"^^xsd:float .
+    lppo:illuminanceRange "450"^^xsd:float .
+
+
+
+
+
